@@ -2,8 +2,11 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgba(27, 26, 26, 0.575);
+    /*
     background-image: url("Grade_Grey.jpg");    
     background-size: 100%;
+    */
   }
 
 
@@ -15,6 +18,7 @@ body {
   h1{
     letter-spacing: 5px;
     text-transform: uppercase;
+    margin-right: 10px;
   }
    h2{
     margin-top:50px;
@@ -69,16 +73,9 @@ body {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    opacity: 0.5;
-    transition: 1s;
-    cursor: pointer;
     margin-top: 10px;
   }
-  .service:hover{
-    opacity: 1;
 
-    
-  }
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -96,13 +93,13 @@ body {
   button {
     background-color: #333;
     color: #fff;
-    padding: 10px;
     border: none;
     cursor: pointer;
-    margin-bottom: 5px;
+    margin: 5px;
+  
   }
-  button:hover {
-    background-color: #555;
+  button:active{
+    background-color: #333;
   }
   button>a {
     text-decoration: none;
@@ -113,10 +110,10 @@ body {
     text-align: center;
     padding: 10px 0;
   }
-footer p{
-  color: white;
-  font-weight: bold;
-}
+  footer p{
+    color: white;
+    font-weight: bold;
+  }
 
 
 
@@ -161,24 +158,22 @@ footer p{
 
 .carousel-button {
   cursor: pointer;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   background-color: #000000;
-  color: #fff;
   border: none;
   border-radius:50%;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .carousel-btn{
   cursor: pointer;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   background-color: #000000;
-  color: #fff;
   border: none;
   border-radius:50%;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 /* animaçao da logo*/
