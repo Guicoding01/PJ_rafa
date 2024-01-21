@@ -61,7 +61,6 @@ body {
   .services {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5px;
   }
   
   .service {
@@ -73,6 +72,7 @@ body {
     opacity: 0.5;
     transition: 1s;
     cursor: pointer;
+    margin-top: 10px;
   }
   .service:hover{
     opacity: 1;
