@@ -96,11 +96,10 @@ body {
     border: none;
     cursor: pointer;
     margin: 5px;
+    padding: 10px;
   
   }
-  button:active{
-    background-color: #333;
-  }
+
   button>a {
     text-decoration: none;
     color:white;
