@@ -109,7 +109,7 @@ body {
     color:white;
   }
   footer {
-    margin-top: 10px;
+    margin-top: 35px;
     text-align: center;
     padding: 10px 0;
   }
@@ -117,11 +117,7 @@ footer p{
   color: white;
   font-weight: bold;
 }
-  nav ul li a:hover{
-    border-bottom: 3px solid white;
-    padding-bottom: 4px;
-    transition: 0.2s;
-  }
+
 
 
 
@@ -152,13 +148,7 @@ footer p{
   width: 100%;
   cursor: pointer;
   margin-left: 3px;
-  opacity: 0.6;
-  transition: 0.5s;
 }
-.carousel-image:hover{
-  opacity: 1;
-}
-
 .carousel-buttons {
   position: absolute;
   top: 50%;

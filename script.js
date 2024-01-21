@@ -31,7 +31,7 @@
     }
 
     function updateCarousel() {
-        const newTransformValue = - currentIndex * 27 + '%';
+        const newTransformValue = - currentIndex * 32 + '%';
         imageCarousel.style.transform = 'translateX(' + newTransformValue + ')';
     }
 
@@ -48,7 +48,7 @@
     }
 
     function updateCarousel_2() {
-        const newTransformValue = - currentIndex * 27 + '%';
+        const newTransformValue = - currentIndex * 32 + '%';
         imgCarousel.style.transform = 'translateX(' + newTransformValue + ')';
     }
     
