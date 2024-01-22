@@ -109,6 +109,9 @@ body {
     padding: 10px;
   
   }
+  button:focus{
+    visibility: none;
+  }
 
   button>a {
     text-decoration: none;
