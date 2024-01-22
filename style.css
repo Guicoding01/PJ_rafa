@@ -2,13 +2,17 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(27, 26, 26, 0.575);
-    /*
-    background-image: url("Grade_Grey.jpg");    
-    background-size: 100%;
-    */
+    
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 40%;
+      
   }
 
+  .back{
+    background-color: #000000;
+  }
 
   .container {
     max-width: 1200px;
@@ -21,9 +25,11 @@ body {
     margin-right: 10px;
   }
    h2{
-    margin-top:50px;
-    color: rgb(16, 15, 15);
+    color: white;
+    margin-top:40px;
+    display: inline-block;
   }
+
   .center{
     text-align: center;
   }
@@ -53,7 +59,7 @@ body {
     font-size: 16px;
   }
   p{
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   
@@ -72,9 +78,10 @@ body {
     flex: 1;
     margin: 0 10px;
     padding: 20px;
-    border: 1px solid #0000006d;
+    border: 1px solid #a7a5a56d;
     border-radius: 8px;
     margin-top: 10px;
+    color: white;
   }
 
   .gallery {
@@ -106,9 +113,9 @@ body {
     color:white;
   }
   footer {
-    margin-top: 35px;
     text-align: center;
     padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.846);
   }
   footer p{
     color: white;
@@ -144,7 +151,7 @@ body {
 .carousel-image {
   width: 100%;
   cursor: pointer;
-  margin-left: 3px;
+  margin-left: 5px;
 }
 .carousel-buttons {
   position: absolute;
@@ -288,5 +295,25 @@ body {
   }
 }
 
+/* Adaptaçoes para table e celular */
 
-  
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+  .back{
+    background-color: black;
+    margin-top: 30px;
+  }
+}
+
+/* Estilos para celulares (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+    body{
+      background-color: black;
+      background-size: 100% 18%;
+    }
+    footer{
+      padding: 10px 0;
+      background-color: rgba(71, 71, 71, 0.316);
+    }
+
+}
