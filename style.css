@@ -12,12 +12,13 @@ body {
 
   .back{
     background-color: #000000;
+    margin-top: 20px;
   }
 
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
   }
   h1{
     letter-spacing: 5px;
