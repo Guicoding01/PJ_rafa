@@ -23,6 +23,7 @@ body {
     letter-spacing: 5px;
     text-transform: uppercase;
     margin-right: 10px;
+    text-shadow: 0 0 20px #00aeff,0 0 40px #00e1ff;
   }
    h2{
     color: white;
