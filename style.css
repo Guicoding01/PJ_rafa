@@ -177,9 +177,7 @@ body {
   border-radius:50%;
   opacity: 0.7;
 }
-.carousel-button:focus{
-  border-radius:50%;
-}
+
 
 .carousel-btn{
   cursor: pointer;
@@ -190,9 +188,7 @@ body {
   border-radius:50%;
   opacity: 0.7;
 }
-.carousel-btn:focus{
-  border-radius:50%;
-}
+
 
 /* animaçao da logo*/
 
