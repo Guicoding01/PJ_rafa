@@ -52,3 +52,10 @@
         imgCarousel.style.transform = 'translateX(' + newTransformValue + ')';
     }
     
+    // efeito paralaxe
+
+window.sr = ScrollReveal({reset : true});
+
+sr.reveal('h2' ,{duration : 1000});
+sr.reveal('#img-carousel' ,{duration : 3000});
+sr.reveal('#image-carousel' ,{duration : 3000});
