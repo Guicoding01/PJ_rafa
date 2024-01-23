@@ -43,12 +43,12 @@
     }
 
     function nextImg() {
-        currentIndex = (currentIndex + 1) % images.length;
+        currentIndex = (currentIndex + 1.5) % images.length;
         updateCarousel_2();
     }
 
     function updateCarousel_2() {
-        const newTransformValue = - currentIndex * 32 + '%';
+        const newTransformValue = - currentIndex * 17 + '%';
         imgCarousel.style.transform = 'translateX(' + newTransformValue + ')';
     }
     
